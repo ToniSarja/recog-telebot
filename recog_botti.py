@@ -14,7 +14,7 @@ with open("intents.json",encoding="utf8") as file:
     data = json.load(file)
 
 
-bot = telebot.TeleBot("5186120227:AAG67a5QbHn21QQl594ABd1Qpwi2lYe9pmg", parse_mode=None)
+bot = telebot.TeleBot("TOKEN_GOES_HERE", parse_mode=None)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
