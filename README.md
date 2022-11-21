@@ -7,3 +7,4 @@ The deep learning model then classifies the string by iterating through a JSON f
 
 If the string matches a key in the dictionary, the Python script will return a value which is a response.
 
+[![Alt text](https://img.youtube.com/vi/Zgl9s_vVMBE/0.jpg)](https://www.youtube.com/watch?v=Zgl9s_vVMBE)
