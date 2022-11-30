@@ -21,5 +21,3 @@ A SQL database that collects user responses so that I could build a better datas
 
 Some nice visualizations for users to view their progress
 
-Presentation notes
--
