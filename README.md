@@ -7,6 +7,8 @@ The deep learning model then classifies the string by iterating through a JSON f
 
 If the string matches a key in the dictionary, the Python script will return a value which is a response.
 
+The main thing is now to write a lot of intents and responses in the JSON file
+
 Easy to repurpose for other languages
 
 Here's a video demonstration
