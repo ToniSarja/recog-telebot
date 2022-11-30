@@ -10,6 +10,7 @@ If the string matches a key in the dictionary, the Python script will return a v
 Here's a video demonstration
 
 [![Alt text](https://img.youtube.com/vi/Zgl9s_vVMBE/0.jpg)](https://www.youtube.com/watch?v=Zgl9s_vVMBE)
+
 The model
 -
 Sequential model of Keras
