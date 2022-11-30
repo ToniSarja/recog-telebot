@@ -1,7 +1,7 @@
 # recog-telebot
 Deep learning telegram bot that recognizes Russian words and responds in Russian
 
-A Python script calls the Telegram bot and the Python Speech Recognition module is used for transforming voice input into a string. 
+A Python script calls the Telegram bot and the Python Speech Recognition module is used for transforming voice input into a string. I use Google Speech Recognition for voice recognition
 
 The deep learning model then classifies the string by iterating through a JSON file which includes key value pairs. 
 
