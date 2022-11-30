@@ -13,7 +13,7 @@ Here's a video demonstration
 
 The model
 -
-Sequential model of Keras
+Sequential model of Keras. You can use different models, this was the first one that worked for its intended purpose, so I went with it. 
 
 Planned features
 -
