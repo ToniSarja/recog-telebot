@@ -30,10 +30,10 @@ def get_audio_messages(message):
     #load the model
     model = keras.models.load_model('chat_model')
     max_len = 20
-    with open('/home/venajankielioppi/mysite/tokenizer.pickle', 'rb') as handle:
+    with open('tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
 
-    with open('/home/venajankielioppi/mysite/label_encoder.pickle', 'rb') as enc:
+    with open('label_encoder.pickle', 'rb') as enc:
         lbl_encoder = pickle.load(enc)
 
     bot.reply_to(message, "Pieni hetki")
@@ -43,7 +43,7 @@ def get_audio_messages(message):
     downloaded_file = bot.download_file(file_info.file_path)
 
     #Voice input saved into a file, transformed into .wav file
-    with open('/home/venajankielioppi/mysite/user_voice.ogg', 'wb') as new_file:
+    with open('user_voice.ogg', 'wb') as new_file:
         new_file.write(downloaded_file)
     src_filename = 'user_voice.ogg'
     dest_filename = 'user_voice_output.wav'
@@ -52,7 +52,7 @@ def get_audio_messages(message):
     sound.export(dest_filename, format="wav")
 
     #Speech recognition happens here, speech_recogniser turns file into a string
-    user_audio_file = sr.AudioFile("/home/venajankielioppi/mysite/user_voice_output.wav")
+    user_audio_file = sr.AudioFile("user_voice_output.wav")
     with user_audio_file as source:
         user_audio = r.record(source)
         text = r.recognize_google(user_audio, language='ru')
