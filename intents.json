@@ -1,33 +1,25 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Привет", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Здорово!", "Здравствуй!", "Приветствую"],
-         "context_set": ""
-        },
-        {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-         "context_set": ""
-        },
-        {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
-         "context_set": ""
-        },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
-         "context_set": ""
-        },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
-         "context_set": ""
-        },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
-         "context_set": ""
-        }
-   ]
+   {"tag": "greeting",
+    "patterns": ["Привіт", "До зустрічі", "доброго ранку", "добрий вечір", "добрий день", "дуже приємно","Як твої справи?","Приємно познайомитись","Навзаєм"],
+    "responses": ["CQACAgQAAxkBAAIDD2QHOxD-2DoceyJbMAKNAsx6PeJqAAIxEAACP984UKWUDbWM8GfTLgQ",
+                  "CQACAgQAAxkBAAIDEWQHOxjuVi0Zqw9s1cWpof61jb0oAAIyEAACP984UJjTUqBgoJqlLgQ",
+                  "CQACAgQAAxkBAAIDE2QHOyfyIxkd5603I4uY3Z_83x43AAIzEAACP984UN6HvStZyDhULgQ",
+                  "CQACAgQAAxkBAAIDFWQHOzNBxrDQ4XFDhubqgW6P3KW3AAI0EAACP984UNcC9WxtQ-j0LgQ",
+                  "CQACAgQAAxkBAAIDG2QHO1A3srhm8CRj9i4uxENChZljAAI3EAACP984UNBzIVxo9aFlLgQ",
+                  "CQACAgQAAxkBAAIDHWQHO1tTm1ixYCe6fqA_FJo9fUYHAAI4EAACP984UDmQJNQBEmR1LgQ"
+               ],
+    "context_set": ""
+   },
+   {"tag": "bye",
+    "patterns": ["До побачення","Спокійної ночі", "Солодких снів"],
+    "responses":["CQACAgQAAxkBAAIDC2QHOvfN2FlAl_7k10_ZZWYhXMElAAIvEAACP984UJHcEfUWxfDSLgQ","CQACAgQAAxkBAAIDDWQHOwPzrfOv2gbEY7ysLe2ym0qkAAIwEAACP984UE1Y8qiHXF4dLgQ","CQACAgQAAxkBAAIDGWQHO0WGl7zWI6UeN7dxEVdHI4nfAAI2EAACP984UJw6ZoWjk32PLgQ"],
+    "context_set": ""
+   },
+   {"tag": "thanks",
+    "patterns": ["Будь ласка","Нема за що","Вибач","Вибач","Не варто подяки"],
+    "responses": ["CQACAgQAAxkBAAIDCWQHOtvghONHkAt5FoVLA_vIBg7PAAIuEAACP984UAhV-fvaRUKNLgQ","CQACAgQAAxkBAAIDF2QHOzs_46f4p1ljYP-ADFEWJ65_AAI1EAACP984UMEBzL30av9qLgQ"],
+    "context_set": ""
+   }
+
+]
 }
