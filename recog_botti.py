@@ -13,7 +13,7 @@ import json
 import telegram_upload
 from telebot import types
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-bot = telebot.TeleBot("5667700634:AAF5qloxkZm08fP0uIiQGXmgKNKRsh9_M3M", parse_mode=None)
+bot = telebot.TeleBot("", parse_mode=None)
 
 with open("intents.json",encoding="utf8") as file:
     data = json.load(file)
